@@ -83,7 +83,7 @@ string convertirDecimalAHexadecimal(int decimal) {
     if (decimal == 0) return "0";
 
     string hexadecimal = "";
-    char hexDigits[] = "0123456789ABCDEF";
+    char hexDigits[] = "0123456789ABCDEF";//todos los valores del hexa
 
     while (decimal > 0) {
         int residuo = decimal % 16;
